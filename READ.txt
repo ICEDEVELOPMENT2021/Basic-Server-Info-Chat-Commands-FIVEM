@@ -1,0 +1,20 @@
+This is just a little resource to allow you to personalise your FiveM server even more. This resource includes the following:
+
+CHAT COMMANDS:
+
+- /help - Then sends a message in chat that you set (ONLY PERSON THAT DOES /HELP CAN SEE)
+- /v - Shows the version of your server (ONLY PERSON THAT DOES /HELP CAN SEE)
+- /info - Sends a some information about your server into the chat (ONLY PERSON THAT DOES /HELP CAN SEE)
+
+You can expan on this as much as you want by using this template:
+
+RegisterCommand("COMMAND", function()
+    msg("WHAT_THE_COMMAND_SAYS")
+end, false)
+
+KEY:
+
+1. ("COMMAND") - This is what you type in the chat with the / (Exsample: /help)
+2. ("WHAT_THE_COMMAND_SAYS") - This is what the command will say in the chat after the command has been done.
+
+For any support or questions please join the ICE discord: 
